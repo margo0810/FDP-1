@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    background: #F6F8FA;
+
+    text-decoration: none;
+}
+
+
+.dashboard {
+    float: left;
+    width: 300px;
+    height: 300vh;
+    background-color: white;
+    /* display: flex; */
+    
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 16px 40px 0px #9aaacf33;
+    padding-left:50px ;
+    padding-top:60px ;
+}      
+
+.main__search{
+    background: #F6F8FA;
+    color: white;
+    border: 2px ;
+    border-radius: 20px;
+    background: none;
+    padding: 10px 30px;
+    margin-bottom:30px ;
+    width: 200px;
+}
+
+.dashboard__options{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background: none;
+}
+
+.dashboard__logo{
+    margin-right:20px ;
+    background: none;
+}
+
+.dashboard__option{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: none;
+    margin:10px;
+}
+
+.dashboard__link{
+    font-weight: 500;
+    color: black    ;
+    background: none;
+}
+
+.bottom{
+    background: none;
+    width: 250px;
+
+    display: flex;
+    box-shadow: 0px 8.94302749633789px 22.357568740844727px 0px #9aaacf33;
+    flex-direction: column;
+    align-items: center;
+
+    border: 2px ;
+    border-radius: 20px;
+
+    padding-top: 25px;
+    padding-bottom: 20px;
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background: white;
+}
+
+.artist__name{
+    background: none;
+    font-weight: 500;
+    color: black;
+    font-size: 10px;
+    margin: 5px;
+    background: none;
+    background: white;
+
+}
+
+.song__name{
+    background: none;
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+    background: none;
+    margin: 5px;
+    background: none;
+    
+}
+
+.controls{
+    margin: 20px;
+    width: 90px;
+    background: none;
+}
+
+.Top-controls{
+    margin: 10px;
+    background: none;
+    background: none;
+    
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    background: none;
+}
+
+.info{
+    padding-left: 500px;
+    padding-top: 120px;
+    background: none;
+}
+
+.right__infor{
+
+    background: white;
+}
+
+.user__name{
+    background: white;
+}
+
+.right__{
+    display: flex;
+    flex-direction: column;
+   margin-top:20px ;
+   /*align-items: center;*/
+    
+}
+
+.text{
+    color: #9AAACF;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+    background: none;
+}
+.text2{
+    color: #9AAACF;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    text-align: center;
+    background: none;
+}
+
+input{
+    width: 600px;
+    height: 40px;
+    border: 0.5px solid #9AAACF;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background: none;
+
+}
+
+.textInput{
+    color: #9AAACF;
+   
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 50px;
+    background: none;
+}
+
+form{
+    text-align: left;
+    background: none;
+}
+
+
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
+    text-align: end;
+    background: none;
+}
+
+.inputTerms{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: none;
+}
+
+.terms{
+
+    width: 20px;
+    height: 20px;
+    border: solid black;
+    margin: 5px;
+    background: none;
+}
+
+.text3{
+    color:  black;
+    font-weight: 400;
+    font-size: 5px;
+    background: none;
+}
+
+.text4{
+    color:  black;
+    font-weight: 400;
+    font-size: 5px;
+    margin-bottom: 10px;
+    text-align: right;
+    background: none;
+}
+
+button{
+    background: #B6C6ED24;
+    border: none;
+    width: 100px;
+    height: 40px;
+    color: #9AAACF;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}

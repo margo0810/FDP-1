@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    background: white;
+}
+
+body{
+    display: flex;
+}
+
+.Banner{
+    width: 70%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+   /*align-items: center;*/
+    
+}
+
+.text{
+    color: #9AAACF;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
+.text2{
+    color: #9AAACF;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    border: 0.5px solid #9AAACF;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.textInput{
+    color: #9AAACF;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+form{
+    text-align: left;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: flex-end;
+    text-align: end;
+}
+
+.inputTerms{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.terms{
+
+    width: 20px;
+    height: 20px;
+    border: solid black;
+    margin: 5px;
+}
+
+.text3{
+    color:  black;
+    font-weight: 400;
+    font-size: 5px;
+}
+
+.text4{
+    color:  black;
+    font-weight: 400;
+    font-size: 5px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+button{
+    background: #B6C6ED24;
+    border: none;
+    width: 100px;
+    height: 40px;
+    color: #9AAACF;
+    border-radius: 5px;
+    cursor: pointer;
+}

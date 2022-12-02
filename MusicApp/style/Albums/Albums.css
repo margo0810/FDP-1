@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    justify-content: center;
+    background: white;
+    text-decoration: none;
+}
+
+
+.dashboard {
+    float: left;
+    width: 300px;
+    height: 110vh;
+    background-color: white;
+    /* display: flex; */
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 16px 40px 0px #9aaacf33;
+    padding-left:50px ;
+    padding-top:60px ;
+}      
+
+.main__search{
+    background: #F6F8FA;
+    color: white;
+    border: 2px ;
+    border-radius: 20px;
+   
+    padding: 10px 30px;
+    margin-bottom:30px ;
+    width: 200px;
+}
+
+.dashboard__options{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.dashboard__logo{
+    margin-right:20px ;
+}
+
+.dashboard__option{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin:10px;
+}
+
+.dashboard__link{
+    font-weight: 500;
+    color: black    ;
+}
+
+.bottom{
+
+    width: 250px;
+
+    display: flex;
+    box-shadow: 0px 8.94302749633789px 22.357568740844727px 0px #9aaacf33;
+    flex-direction: column;
+    align-items: center;
+
+    border: 2px ;
+    border-radius: 20px;
+
+    padding-top: 25px;
+    padding-bottom: 20px;
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.artist__name{
+
+    font-weight: 500;
+    color: black;
+    font-size: 10px;
+    margin: 5px;
+
+}
+
+.song__name{
+
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+
+    margin: 5px;
+    
+}
+
+.controls{
+    margin: 20px;
+    width: 90px;
+
+}
+
+.Top-controls{
+    margin: 10px;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: white;
+    box-shadow: 0px 8.94302749633789px 22.357568740844727px 0px #9aaacf33;
+   
+}
+
+.control{
+    margin-bottom: 20px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.left__control{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 70px;
+}
+
+.user__name{
+    font-weight: 700;
+   
+    font-size: 20px;
+}
+
+.right__info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
+
+
+
+.suscribe__cont{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    width: 50%;
+
+    background: none;
+
+
+}
+
+.suscribe__list{
+    margin: 0px 15px;
+    width: 20%;
+    margin: 0px 15px 20px;
+    width: 40%;
+    background: none;
+}
+
+.suscribe_text{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.suscribe_text2{
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+.sus{
+    border-radius: 10px;
+    width: 100%;
+}
+
+.things{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    margin-top:10px;
+
+}
+
+.now{
+    margin: 15px;
+    background: none;
+}
+
+.play{
+    width: 282px;
+    display: flex;
+    box-shadow: 0px 8.94302749633789px 22.357568740844727px 0px #9aaacf33;
+    flex-direction: column;
+    align-items: center;
+    border: 2px;
+    border-radius: 20px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin-left: 13px;
+margin-top:20px;
+    height: 200px;
+
+   
+}
+
+.songs__cont{
+   
+    border: 2px;
+    border-radius: 20px;
+    width: 50%;
+    background: none;   
+}
+
+.song{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 435px;
+    padding: 5px;
+    box-shadow: 0px 8.94302749633789px 22.357568740844727px 0px #9aaacf33;
+    margin: 10px;
+    margin-bottom: 37px;
+    border: 1px;
+    border-radius: 20px;
+    background: none;
+}
+
+.song_img{
+    width:8%;
+    border: 1px;
+    padding-left:5px;
+    background: none;
+ 
+}
+
+
+.welcome{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: none;
+}
+
+.tittle{
+    font-weight: 700;
+    margin-top: 18px;
+    margin-left: 370px;
+
+    background: none;
+}
