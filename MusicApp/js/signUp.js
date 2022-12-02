@@ -43,7 +43,6 @@ function enviarFormulario() {
   };
   if (localStorage.getItem("users") === null) {
     users.push(user);
-
     localStorage.setItem("users", JSON.stringify(users));
   } else {
     let allUsers = JSON.parse(localStorage.getItem("users"));
